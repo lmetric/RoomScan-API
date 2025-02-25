@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "9An-Vx-ZdJ"; */
+"9An-Vx-ZdJ.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Kitchen Counter?"; ObjectID = "NeA-zx-zdb"; */
+"NeA-zx-zdb.text" = "Kitchen Counter?";
+
+/* Class = "UILabel"; text = "⚠️ Check the angle of the orange line matches each wall."; ObjectID = "Uex-hf-NAw"; */
+"Uex-hf-NAw.text" = "⚠️ Check the angle of the orange line matches each wall.";
+
+/* Class = "UIButton"; normalTitle = "✅ Confirm"; ObjectID = "gcS-vC-JR4"; */
+"gcS-vC-JR4.normalTitle" = "✅ Confirm";
+
+/* Class = "UILabel"; text = "Activating lasers..."; ObjectID = "o8P-eM-FiF"; */
+"o8P-eM-FiF.text" = "Activating lasers...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ozV-Ai-vPn"; */
+"ozV-Ai-vPn.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Flip"; ObjectID = "qSd-8w-yIY"; */
+"qSd-8w-yIY.normalTitle" = "Flip";
+
+/* Class = "UITextView"; text = "abc\ndef"; ObjectID = "tOP-Xz-397"; */
+"tOP-Xz-397.text" = "abc\ndef";

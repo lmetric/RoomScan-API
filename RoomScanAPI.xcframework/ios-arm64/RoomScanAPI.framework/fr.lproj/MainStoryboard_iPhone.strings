@@ -1,0 +1,528 @@
+/* Class = "UINavigationItem"; title = "Help & Information"; ObjectID = "1PX-zK-gD5"; */
+"1PX-zK-gD5.title" = "Aide & informations";
+
+/* Class = "UITextField"; placeholder = "Floor"; ObjectID = "1SW-BO-bpw"; */
+"1SW-BO-bpw.placeholder" = "Niveau";
+
+/* Class = "UILabel"; text = "in doorway"; ObjectID = "1vN-lT-BZa"; */
+"1vN-lT-BZa.text" = "à la porte";
+
+/* Class = "UILabel"; text = "Keep each movement short.\nDon't allow more than about 5 seconds between points."; ObjectID = "1Zb-mD-Jsv"; */
+"1Zb-mD-Jsv.text" = "Chaque mouvement doit être court.\nNe laissez pas plus de 5 secondes entre chaque point.";
+
+/* Class = "UIViewController"; title = "First"; ObjectID = "2"; */
+"2.title" = "Premier";
+
+/* Class = "UIViewController"; title = "Second"; ObjectID = "3"; */
+"3.title" = "Deuxième";
+
+/* Class = "UILabel"; text = "start of\ncurved wall"; ObjectID = "3Cs-GL-Cbk"; */
+"3Cs-GL-Cbk.text" = "début du\nmur incurvé";
+
+/* Class = "UIButton"; normalTitle = "View Interactive Tutorial"; ObjectID = "3qx-Qr-izw"; */
+"3qx-Qr-izw.normalTitle" = "Voir le tutoriel interactif";
+
+/* Class = "UITextField"; placeholder = "Postal code"; ObjectID = "3tL-hu-ziP"; */
+"3tL-hu-ziP.placeholder" = "Code postal";
+
+/* Class = "UITextField"; placeholder = "Street address"; ObjectID = "4dm-wH-6uh"; */
+"4dm-wH-6uh.placeholder" = "Adresse postale";
+
+/* Class = "UISegmentedControl"; 4nq-3K-Xl0.segmentTitles[0] = "Portrait"; ObjectID = "4nq-3K-Xl0"; */
+"4nq-3K-Xl0.segmentTitles[0]" = "Portrait";
+
+/* Class = "UISegmentedControl"; 4nq-3K-Xl0.segmentTitles[1] = "Landscape"; ObjectID = "4nq-3K-Xl0"; */
+"4nq-3K-Xl0.segmentTitles[1]" = "Paysage";
+
+/* Class = "UILabel"; text = "Keep each movement short.\nTouch a wall more than once if necessary."; ObjectID = "6ax-Ke-Xea"; */
+"6ax-Ke-Xea.text" = "Gardez chaque mouvement court.\nTouchez un mur plusieurs fois si nécessaire.";
+
+/* Class = "UILabel"; text = "Draw unaided or with Bluetooth laser"; ObjectID = "6i8-Rn-jpF"; */
+"6i8-Rn-jpF.text" = "Dessiner seul ou avec Bluetooth laser";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "6L1-hl-ppW"; */
+"6L1-hl-ppW.normalTitle" = "Connexion";
+
+/* Class = "UIButton"; normalTitle = "Subscribe Now"; ObjectID = "6Md-bN-SOK"; */
+"6Md-bN-SOK.normalTitle" = "S'inscrire maintenant";
+
+/* Class = "UIButton"; normalTitle = "Get RoomScan Pro"; ObjectID = "6Uq-NU-vPz"; */
+"6Uq-NU-vPz.normalTitle" = "Obtenir RoomScan Pro";
+
+/* Class = "UILabel"; text = "mm"; ObjectID = "7NW-Sq-xjo"; */
+"7NW-Sq-xjo.text" = "mm";
+
+/* Class = "UIBarButtonItem"; title = "Autocorrect"; ObjectID = "7uq-67-yzF"; */
+"7uq-67-yzF.title" = "Correction automatique";
+
+/* Class = "UILabel"; text = "When you get back to the first wall, carry on and do one more."; ObjectID = "8mA-Zb-v2T"; */
+"8mA-Zb-v2T.text" = "Lorsque vous revenez au premier mur, continuez et faites-en un de plus.";
+
+/* Class = "UILabel"; text = "Subscription works across \ndevices using this Apple ID"; ObjectID = "8WT-wf-p3S"; */
+"8WT-wf-p3S.text" = "L'abonnement fonctionne sur \nles appareils utilisant cet ID Apple";
+
+/* Class = "UINavigationItem"; title = "Export Credit Purchase"; ObjectID = "20C-00-Q1h"; */
+"20C-00-Q1h.title" = "Achat de crédit d'exportation";
+
+/* Class = "UILabel"; text = "Unlimited save, export and print in PNG, PDF, DXF for CAD and more"; ObjectID = "41l-Hg-vcL"; */
+"41l-Hg-vcL.text" = "Enregistrement, exportation et impression en PNG, PDF, DXF pour CAD illimités, et plus encore";
+
+/* Class = "UILabel"; text = "Read Instructions"; ObjectID = "56G-Yu-ZEj"; */
+"56G-Yu-ZEj.text" = "Lire les instructions";
+
+/* Class = "UIButton"; normalTitle = "Export"; ObjectID = "90O-YH-K8i"; */
+"90O-YH-K8i.normalTitle" = "Export";
+
+/* Class = "UILabel"; text = "Remember to touch every wall that should appear on the floor plan."; ObjectID = "183-rg-dcd"; */
+"183-rg-dcd.text" = "N'oubliez pas d'appuyer sur tous les murs qui doivent apparaître sur le plan de niveau.";
+
+/* Class = "UILabel"; text = "Share On Facebook"; ObjectID = "285-wq-NAw"; */
+"285-wq-NAw.text" = "Partager sur Facebook";
+
+/* Class = "UIButton"; normalTitle = "Finish"; ObjectID = "446-34-lPc"; */
+"446-34-lPc.normalTitle" = "Terminer";
+
+/* Class = "UILabel"; text = "Page 1 of 2"; ObjectID = "ab0-dO-099"; */
+"ab0-dO-099.text" = "Page 1 sur 2";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "AeJ-x2-IKB"; */
+"AeJ-x2-IKB.placeholder" = "Pays";
+
+/* Class = "UIButton"; normalTitle = "Scan by Touching Walls"; ObjectID = "Aiw-vp-Z4f"; */
+"Aiw-vp-Z4f.normalTitle" = "Scanner en touchant les murs";
+
+/* Class = "UILabel"; text = "Share By E-mail"; ObjectID = "Aoy-9U-oRW"; */
+"Aoy-9U-oRW.text" = "Partager par email";
+
+/* Class = "UINavigationItem"; title = "New Room"; ObjectID = "APi-2X-xfY"; */
+"APi-2X-xfY.title" = "Nouvelle pièce";
+
+/* Class = "UIButton"; normalTitle = "Export"; ObjectID = "Azm-co-UgY"; */
+"Azm-co-UgY.normalTitle" = "Export";
+
+/* Class = "UINavigationItem"; title = "Rooms"; ObjectID = "bk7-Ac-ZPd"; */
+"bk7-Ac-ZPd.title" = "Pièces";
+
+/* Class = "UILabel"; text = "Unlimited laser-accurate floor plans"; ObjectID = "BKk-Gm-JUW"; */
+"BKk-Gm-JUW.text" = "Plans avec précision laser illimités";
+
+/* Class = "UILabel"; text = "Get Assistance"; ObjectID = "bR6-UL-qFB"; */
+"bR6-UL-qFB.text" = "Obtenir de l'aide";
+
+/* Class = "UILabel"; text = "How to Scan a Room"; ObjectID = "bul-ri-Jgn"; */
+"bul-ri-Jgn.text" = "Comment analyser une pièce";
+
+/* Class = "UIBarButtonItem"; title = "Start Again"; ObjectID = "BW9-9f-FgG"; */
+"BW9-9f-FgG.title" = "Recommencer";
+
+/* Class = "UIButton"; normalTitle = "Restore Purchase"; ObjectID = "byo-Ha-apg"; */
+"byo-Ha-apg.normalTitle" = "Restaurer l'achat";
+
+/* Class = "UILabel"; text = "on\nclosed door"; ObjectID = "ccD-pj-Uec"; */
+"ccD-pj-Uec.text" = "sur\nla porte fermée";
+
+/* Class = "UITextField"; placeholder = "Town"; ObjectID = "CGc-vQ-d8n"; */
+"CGc-vQ-d8n.placeholder" = "Ville";
+
+/* Class = "UIButton"; normalTitle = "Manage Subscriptions"; ObjectID = "chu-vf-ELJ"; */
+"chu-vf-ELJ.normalTitle" = "Gérer les abonnements";
+
+/* Class = "UILabel"; text = "top\nstep"; ObjectID = "CVO-l9-dPE"; */
+"CVO-l9-dPE.text" = "marche\ndu haut";
+
+/* Class = "UIButton"; normalTitle = "Draw Manually"; ObjectID = "cWU-Sw-lOz"; */
+"cWU-Sw-lOz.normalTitle" = "Dessiner manuellement";
+
+/* Class = "UINavigationItem"; title = "Scanning Room"; ObjectID = "Cx9-wL-xRk"; */
+"Cx9-wL-xRk.title" = "Balayage de la pièce";
+
+/* Class = "UINavigationItem"; title = "Property Details"; ObjectID = "dbU-ow-5OM"; */
+"dbU-ow-5OM.title" = "Détails de propriété";
+
+/* Class = "UILabel"; text = "Where is the phone now?"; ObjectID = "DeA-q3-Tvz"; */
+"DeA-q3-Tvz.text" = "Où est le téléphone maintenant ?";
+
+/* Class = "UISegmentedControl"; DiK-ZV-3zi.segmentTitles[0] = "Free"; ObjectID = "DiK-ZV-3zi"; */
+"DiK-ZV-3zi.segmentTitles[0]" = "Gratuit";
+
+/* Class = "UISegmentedControl"; DiK-ZV-3zi.segmentTitles[1] = "Pro"; ObjectID = "DiK-ZV-3zi"; */
+"DiK-ZV-3zi.segmentTitles[1]" = "Pro";
+
+/* Class = "UILabel"; text = "height"; ObjectID = "dqu-HB-0MI"; */
+"dqu-HB-0MI.text" = "hauteur";
+
+/* Class = "UIBarButtonItem"; title = "Rename"; ObjectID = "dUn-sU-vhg"; */
+"dUn-sU-vhg.title" = "Renommer";
+
+/* Class = "UILabel"; text = "Unlock RoomScan Pro"; ObjectID = "ECv-6o-6Cu"; */
+"ECv-6o-6Cu.text" = "Débloquer RoomScan Pro";
+
+/* Class = "UILabel"; text = "in doorway"; ObjectID = "ELr-TP-BL6"; */
+"ELr-TP-BL6.text" = "à la porte";
+
+/* Class = "UILabel"; text = "✅"; ObjectID = "EPj-O5-Soa"; */
+"EPj-O5-Soa.text" = "✅";
+
+/* Class = "UILabel"; text = "Share On Twitter"; ObjectID = "ezG-CY-T17"; */
+"ezG-CY-T17.text" = "Partager sur Twitter";
+
+/* Class = "UILabel"; text = "To see wall lengths, zoom into the floor plan with two fingers. Tap any wall to enter your own measurement."; ObjectID = "EzJ-iQ-gL3"; */
+"EzJ-iQ-gL3.text" = "Pour voir les longueurs des murs, zoomez sur le plan de niveau avec deux doigts. Tapez sur n'importe quel mur pour entrer votre propre mesure.";
+
+/* Class = "UINavigationItem"; title = "Scan a Room"; ObjectID = "F9r-t7-coc"; */
+"F9r-t7-coc.title" = "Analyser une pièce";
+
+/* Class = "UISegmentedControl"; fMX-7W-8Kl.segmentTitles[0] = "A4"; ObjectID = "fMX-7W-8Kl"; */
+"fMX-7W-8Kl.segmentTitles[0]" = "A4";
+
+/* Class = "UISegmentedControl"; fMX-7W-8Kl.segmentTitles[1] = "US Letter"; ObjectID = "fMX-7W-8Kl"; */
+"fMX-7W-8Kl.segmentTitles[1]" = "Lettre US";
+
+/* Class = "UISegmentedControl"; fMX-7W-8Kl.segmentTitles[2] = "4:3"; ObjectID = "fMX-7W-8Kl"; */
+"fMX-7W-8Kl.segmentTitles[2]" = "4:3";
+
+/* Class = "UISegmentedControl"; fMX-7W-8Kl.segmentTitles[3] = "Custom"; ObjectID = "fMX-7W-8Kl"; */
+"fMX-7W-8Kl.segmentTitles[3]" = "Personnalisé";
+
+/* Class = "UIButton"; normalTitle = "Privacy Notice"; ObjectID = "g0q-tD-Gkq"; */
+"g0q-tD-Gkq.normalTitle" = "Note de confidentialité";
+
+/* Class = "UITextField"; placeholder = "width"; ObjectID = "gCZ-lK-Yo8"; */
+"gCZ-lK-Yo8.placeholder" = "largeur";
+
+/* Class = "UILabel"; text = "center of\nwindow"; ObjectID = "GDl-p5-CHc"; */
+"GDl-p5-CHc.text" = "centre de\nla fenêtre";
+
+/* Class = "UILabel"; text = "Copyright © 2013 Locometric Ltd. "; ObjectID = "GO5-Hg-IHj"; */
+"GO5-Hg-IHj.text" = "Copyright © 2013 Locometric Ltd. Brevet acquis. ";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "GpO-cO-9hp"; */
+"GpO-cO-9hp.title" = "Objet";
+
+/* Class = "UINavigationItem"; title = "My RoomScan Subscription"; ObjectID = "gSn-Qd-EY2"; */
+"gSn-Qd-EY2.title" = "Mon abonnement RoomScan";
+
+/* Class = "UITextField"; placeholder = "Street address"; ObjectID = "gsw-D2-c2R"; */
+"gsw-D2-c2R.placeholder" = "Adresse postale";
+
+/* Class = "UIButton"; normalTitle = "Split Wall"; ObjectID = "hB4-2f-08K"; */
+"hB4-2f-08K.normalTitle" = "Paroi séparée";
+
+/* Class = "UILabel"; text = "Please sign in to iTunes \nto use this version of RoomScan"; ObjectID = "hcg-JK-JPO"; */
+"hcg-JK-JPO.text" = "Veuillez vous inscrire sur iTunes \npour utiliser cette version de RoomScan";
+
+/* Class = "UILabel"; text = "Send your 3D home by iMessage (recipient doesn't need RoomScan)"; ObjectID = "hKK-fk-fm9"; */
+"hKK-fk-fm9.text" = "Envoyez votre maison 3D par iMessage (le destinataire n'a pas besoin d'avoir RoomScan)";
+
+/* Class = "UILabel"; text = "Share This App"; ObjectID = "Hlw-6E-sU6"; */
+"Hlw-6E-sU6.text" = "Partager cette appli";
+
+/* Class = "UILabel"; text = "Notes"; ObjectID = "Hp5-e3-plI"; */
+"Hp5-e3-plI.text" = "Notes";
+
+/* Class = "UIButton"; normalTitle = "Restore Purchases"; ObjectID = "hxm-vd-I9I"; */
+"hxm-vd-I9I.normalTitle" = "Restaurer les achats";
+
+/* Class = "UINavigationItem"; title = "Get Assistance"; ObjectID = "Ia2-QE-jJ9"; */
+"Ia2-QE-jJ9.title" = "Obtenir de l'aide";
+
+/* Class = "UILabel"; text = "There's no need to go right into corners. \nTouch each wall where it's most convenient."; ObjectID = "IbA-zu-wCb"; */
+"IbA-zu-wCb.text" = "Il n'y a pas besoin d'aller complètement dans les coins.\nTouchez chaque mur où c'est le plus commode.";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "idO-Jf-p13"; */
+"idO-Jf-p13.normalTitle" = "CONTINUER";
+
+/* Class = "UILabel"; text = "Thanks for being a longtime RoomScan user!\n\nWe're sorry for the inconvenience, but we're asking the last few users of this version to switch to RoomScan Pro. It's free to download. Maintaining just one RoomScan helps keep prices low."; ObjectID = "jFu-Eq-dfC"; */
+"jFu-Eq-dfC.text" = "Merci d'être client RoomScan de longue date !\n\nNous sommes désolés de la gêne occasionnée, mais nous demandons aux quelques derniers utilisateurs de cette version de passer à RoomScan Pro. C'est gratuit à télécharger. Maintenir un seul RoomScan nous aide à garder des prix bas.";
+
+/* Class = "UILabel"; text = "Preview Disabled"; ObjectID = "jGP-cD-1wl"; */
+"jGP-cD-1wl.text" = "Aperçu désactivé";
+
+/* Class = "UILabel"; text = "Hold the phone firmly against the wall \nuntil you hear the beep."; ObjectID = "jRM-63-fvk"; */
+"jRM-63-fvk.text" = "Tenez fermement le téléphone contre le mur\njusqu'à ce que vous entendiez le bip.";
+
+/* Class = "UILabel"; text = "\nin opening"; ObjectID = "KAq-0r-oaw"; */
+"KAq-0r-oaw.text" = "\nen ouverture";
+
+/* Class = "UIBarButtonItem"; title = "Duplicate"; ObjectID = "KIE-fH-2pu"; */
+"KIE-fH-2pu.title" = "Doublon";
+
+/* Class = "UIButton"; normalTitle = "Restore Purchase"; ObjectID = "Kjr-iX-CWt"; */
+"Kjr-iX-CWt.normalTitle" = "Restaurer l'achat";
+
+/* Class = "UITableViewSection"; footerTitle = "Follow @locometric on Twitter"; ObjectID = "KLR-Ls-Vxi"; */
+"KLR-Ls-Vxi.footerTitle" = "Suivre @locometric sur Twitter";
+
+/* Class = "UINavigationItem"; title = "Room Details"; ObjectID = "l5a-L5-IqU"; */
+"l5a-L5-IqU.title" = "Détails de la pièce";
+
+/* Class = "UILabel"; text = "Creates FLYPLAN® & 3D Plans"; ObjectID = "LHM-le-Asx"; */
+"LHM-le-Asx.text" = "Cela crée FLYPLAN® et 3D plans des étages";
+
+/* Class = "UIButton"; normalTitle = "Next Page"; ObjectID = "Lit-0M-WJi"; */
+"Lit-0M-WJi.normalTitle" = "Page suivante";
+
+/* Class = "UILabel"; text = "Display instructions next time"; ObjectID = "lMP-kx-fid"; */
+"lMP-kx-fid.text" = "Afficher les instructions la prochaine fois";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "LwS-y3-1c9"; */
+"LwS-y3-1c9.normalTitle" = "CONTINUER";
+
+/* Class = "UIButton"; normalTitle = "Contact Locometric"; ObjectID = "ly9-fQ-DP3"; */
+"ly9-fQ-DP3.normalTitle" = "Envoyer un email à Locometric";
+
+/* Class = "UINavigationItem"; title = "Thank You!"; ObjectID = "Mbc-B1-A9h"; */
+"Mbc-B1-A9h.title" = "Merci !";
+
+/* Class = "UIBarButtonItem"; title = "Details"; ObjectID = "mi3-Be-UV5"; */
+"mi3-Be-UV5.title" = "Détails";
+
+/* Class = "UIViewController"; title = "About Export"; ObjectID = "my8-sK-lSI"; */
+"my8-sK-lSI.title" = "A propos de l'exportation";
+
+/* Class = "UILabel"; text = "Create unlimited floor plans on all of your iOS devices"; ObjectID = "NDU-VJ-JMh"; */
+"NDU-VJ-JMh.text" = "Créez des plans illimités sur tous vos appareils iOS";
+
+/* Class = "UIButton"; normalTitle = "Edit Shape"; ObjectID = "noD-9B-UBV"; */
+"noD-9B-UBV.normalTitle" = "Modifier la forme";
+
+/* Class = "UILabel"; text = "Tap & swipe to control your HomeKit accessories"; ObjectID = "nPj-dL-gdX"; */
+"nPj-dL-gdX.text" = "Tapez & faites glisser pour contrôler vos accessoires HomeKit";
+
+/* Class = "UILabel"; text = "Get Assistance"; ObjectID = "O2C-ji-3h3"; */
+"O2C-ji-3h3.text" = "Obtenir de l'aide";
+
+/* Class = "UIBarButtonItem"; title = "New Room"; ObjectID = "Obw-WB-98d"; */
+"Obw-WB-98d.title" = "Nouvelle pièce";
+
+/* Class = "UITextField"; placeholder = "Height (optional)"; ObjectID = "Ohq-29-sHd"; */
+"Ohq-29-sHd.placeholder" = "Hauteur (facultatif)";
+
+/* Class = "UILabel"; text = "Color"; ObjectID = "oNC-R2-4S4"; */
+"oNC-R2-4S4.text" = "Couleur";
+
+/* Class = "UIButton"; normalTitle = "Restart"; ObjectID = "osu-4t-BKb"; */
+"osu-4t-BKb.normalTitle" = "Redémarrer";
+
+/* Class = "UILabel"; text = "Back at\nfirst wall again"; ObjectID = "oVn-ww-cMU"; */
+"oVn-ww-cMU.text" = "Retour au\npremier mur";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "p1w-uV-Kun"; */
+"p1w-uV-Kun.normalTitle" = "Démarrer";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "pGA-dN-u9e"; */
+"pGA-dN-u9e.text" = "nom";
+
+/* Class = "UINavigationItem"; title = "Plan Publisher"; ObjectID = "POj-NL-RbK"; */
+"POj-NL-RbK.title" = "Éditeur de Plan";
+
+/* Class = "UISegmentedControl"; PRa-zP-qCP.segmentTitles[0] = "2D"; ObjectID = "PRa-zP-qCP"; */
+"PRa-zP-qCP.segmentTitles[0]" = "2D";
+
+/* Class = "UISegmentedControl"; PRa-zP-qCP.segmentTitles[1] = "FLYPLAN"; ObjectID = "PRa-zP-qCP"; */
+"PRa-zP-qCP.segmentTitles[1]" = "FLYPLAN";
+
+/* Class = "UISegmentedControl"; PRa-zP-qCP.segmentTitles[2] = "3D"; ObjectID = "PRa-zP-qCP"; */
+"PRa-zP-qCP.segmentTitles[2]" = "3D";
+
+/* Class = "UISegmentedControl"; PRa-zP-qCP.segmentTitles[3] = "3D+"; ObjectID = "PRa-zP-qCP"; */
+"PRa-zP-qCP.segmentTitles[3]" = "3D+";
+
+/* Class = "UILabel"; text = "Scan your own home and \nsee it in 2D and 3D"; ObjectID = "pyr-U4-eXY"; */
+"pyr-U4-eXY.text" = "Balayez votre propre maison et \nvisionnez-la en 2D et en 3D";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "PzQ-rb-tlz"; */
+"PzQ-rb-tlz.normalTitle" = "Annuler";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "q9Q-Ze-KxQ"; */
+"q9Q-Ze-KxQ.title" = "Paramètres";
+
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "qlh-W8-LQX"; */
+"qlh-W8-LQX.title" = "Modifier";
+
+/* Class = "UILabel"; text = "area"; ObjectID = "QY7-NT-zUi"; */
+"QY7-NT-zUi.text" = "surface";
+
+/* Class = "UIButton"; normalTitle = "Buy Credits"; ObjectID = "RBg-Os-w1y"; */
+"RBg-Os-w1y.normalTitle" = "Acheter des crédits";
+
+/* Class = "UITextField"; placeholder = "Town"; ObjectID = "RhV-uq-4Aj"; */
+"RhV-uq-4Aj.placeholder" = "Ville";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "RhX-4d-wWi"; */
+"RhX-4d-wWi.title" = "A propos de";
+
+/* Class = "UILabel"; text = "on wall"; ObjectID = "RSG-Na-9Jj"; */
+"RSG-Na-9Jj.text" = "sur le mur";
+
+/* Class = "UIBarButtonItem"; title = "New Property"; ObjectID = "rv8-7M-h6b"; */
+"rv8-7M-h6b.title" = "Nouvelle propriété";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "Sc3-LV-3HU"; */
+"Sc3-LV-3HU.placeholder" = "Pays";
+
+/* Class = "UINavigationItem"; title = "RoomScan Pro"; ObjectID = "sLM-d5-zWO"; */
+"sLM-d5-zWO.title" = "RoomScan Pro";
+
+/* Class = "UILabel"; text = "in doorway"; ObjectID = "snD-cY-M4s"; */
+"snD-cY-M4s.text" = "à la porte";
+
+/* Class = "UILabel"; text = "Terms & Privacy"; ObjectID = "Sqp-AB-ROw"; */
+"Sqp-AB-ROw.text" = "A propos de";
+
+/* Class = "UILabel"; text = "color"; ObjectID = "sQq-hr-yLF"; */
+"sQq-hr-yLF.text" = "couleur";
+
+/* Class = "UILabel"; text = "Notes"; ObjectID = "tJP-yW-NY5"; */
+"tJP-yW-NY5.text" = "Notes";
+
+/* Class = "UIBarButtonItem"; title = "Undo"; ObjectID = "tQA-uZ-pXW"; */
+"tQA-uZ-pXW.title" = "Annuler";
+
+/* Class = "UILabel"; text = "Priority customer support, \nopen every day"; ObjectID = "TrW-61-5IV"; */
+"TrW-61-5IV.text" = "Priorité à l'assistance client, \nouvert tous les jours";
+
+/* Class = "UILabel"; text = "for both AR & Touching Walls modes"; ObjectID = "tSZ-a7-hHb"; */
+"tSZ-a7-hHb.text" = "pour les deux modes Toucher de murs & AR";
+
+/* Class = "UILabel"; text = "Watch Demo Videos"; ObjectID = "Tuh-8B-FyD"; */
+"Tuh-8B-FyD.text" = "Regardez les vidéos de démo";
+
+/* Class = "UILabel"; text = "Subscribe to Cabin®"; ObjectID = "Tyz-39-RPX"; */
+"Tyz-39-RPX.text" = "Abonnez-bous à Cabin®";
+
+/* Class = "UISegmentedControl"; tZg-mT-24F.segmentTitles[0] = "PNG"; ObjectID = "tZg-mT-24F"; */
+"tZg-mT-24F.segmentTitles[0]" = "PNG";
+
+/* Class = "UISegmentedControl"; tZg-mT-24F.segmentTitles[1] = "PDF"; ObjectID = "tZg-mT-24F"; */
+"tZg-mT-24F.segmentTitles[1]" = "PDF";
+
+/* Class = "UISegmentedControl"; tZg-mT-24F.segmentTitles[2] = "DXF"; ObjectID = "tZg-mT-24F"; */
+"tZg-mT-24F.segmentTitles[2]" = "DXF";
+
+/* Class = "UISegmentedControl"; tZg-mT-24F.segmentTitles[3] = "More..."; ObjectID = "tZg-mT-24F"; */
+"tZg-mT-24F.segmentTitles[3]" = "Plus...";
+
+/* Class = "UILabel"; text = "perimeter"; ObjectID = "U3n-7S-agN"; */
+"U3n-7S-agN.text" = "périmètre";
+
+/* Class = "UILabel"; text = "Hold the phone with its back against\nthe wall and the screen facing you.\nThis text should be upright."; ObjectID = "u27-7N-z8A"; */
+"u27-7N-z8A.text" = "Tenez le téléphone avec son dos contre\nle mur et l'écran face à vous.\nCe texte doit être vertical.";
+
+/* Class = "UINavigationItem"; title = "Processing"; ObjectID = "UIo-L5-UNU"; */
+"UIo-L5-UNU.title" = "Traitement";
+
+/* Class = "UILabel"; text = "Subscribe to RoomScan LiDAR"; ObjectID = "UNY-Oy-M1l"; */
+"UNY-Oy-M1l.text" = "Abonnez-vous à RoomScan LiDAR";
+
+/* Class = "UIButton"; normalTitle = "Move Corner"; ObjectID = "UpA-j0-53N"; */
+"UpA-j0-53N.normalTitle" = "Déplacer le coin";
+
+/* Class = "UILabel"; text = "Quick results in any room"; ObjectID = "USd-Ae-Vae"; */
+"USd-Ae-Vae.text" = "Résultats rapides dans n'importe quelle piece";
+
+/* Class = "UILabel"; text = "in doorway"; ObjectID = "Usg-Ov-k8h"; */
+"Usg-Ov-k8h.text" = "à la porte";
+
+/* Class = "UIBarButtonItem"; title = "Start Scan"; ObjectID = "uXD-pR-Kai"; */
+"uXD-pR-Kai.title" = "Démarrer";
+
+/* Class = "UITextField"; placeholder = "Postal code"; ObjectID = "v32-YX-7et"; */
+"v32-YX-7et.placeholder" = "Code postal";
+
+/* Class = "UIButton"; normalTitle = "Scan with Camera"; ObjectID = "VtG-Dx-SwH"; */
+"VtG-Dx-SwH.normalTitle" = "Scanner avec l'appareil photo";
+
+/* Class = "UILabel"; text = "surface"; ObjectID = "VVa-F8-QO4"; */
+"VVa-F8-QO4.text" = "surface";
+
+/* Class = "UILabel"; text = "❌"; ObjectID = "w9P-dW-wxY"; */
+"w9P-dW-wxY.text" = "❌";
+
+/* Class = "UILabel"; text = "Finish at the second wall"; ObjectID = "WdZ-ru-I0K"; */
+"WdZ-ru-I0K.text" = "Terminez au deuxième mur";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "WJO-uK-Zay"; */
+"WJO-uK-Zay.title" = "Annuler";
+
+/* Class = "UILabel"; text = "Place the phone down at each point or corner. Start and finish at exactly the same point."; ObjectID = "WKN-Ws-FsR"; */
+"WKN-Ws-FsR.text" = "Posez le téléphone sur chaque point ou coin. Commencez et terminez exactement sur le même point.";
+
+/* Class = "UILabel"; text = "Share plans with friends & colleagues via iCloud or email"; ObjectID = "Wq8-3t-V7v"; */
+"Wq8-3t-V7v.text" = "Partagez les plans avec vos amis & vos collègues via iCloud ou email";
+
+/* Class = "UILabel"; text = "for the Touching Walls mode"; ObjectID = "Wvr-Qy-hon"; */
+"Wvr-Qy-hon.text" = "pour le mode Toucher de murs";
+
+/* Class = "UILabel"; text = "Continue\naround room"; ObjectID = "xAn-fe-fSN"; */
+"xAn-fe-fSN.text" = "Continuer\ndans la pièce";
+
+/* Class = "UILabel"; text = "Your subscription enables ongoing development of Cabin®"; ObjectID = "Xbs-vu-Fss"; */
+"Xbs-vu-Fss.text" = "Votre abonnement permet le développement continu de Cabin®";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "xE6-Xf-fyx"; */
+"xE6-Xf-fyx.text" = "Paramètres";
+
+/* Class = "UILabel"; text = "floor"; ObjectID = "XfU-iv-TJI"; */
+"XfU-iv-TJI.text" = "niveau";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "XlK-Kl-rbx"; */
+"XlK-Kl-rbx.normalTitle" = "CONTINUER";
+
+/* Class = "UILabel"; text = "bottom\nstep"; ObjectID = "Xmd-42-TPt"; */
+"Xmd-42-TPt.text" = "marche\ndu bas";
+
+/* Class = "UIBarButtonItem"; title = "Redo"; ObjectID = "xRf-3e-EHH"; */
+"xRf-3e-EHH.title" = "Rétablir";
+
+/* Class = "UIButton"; normalTitle = "Move Wall"; ObjectID = "xuV-Eb-8FF"; */
+"xuV-Eb-8FF.normalTitle" = "Déplacer le mur";
+
+/* Class = "UILabel"; text = "Unlimited FLYPLAN® and 3D scans"; ObjectID = "xwi-sr-mQD"; */
+"xwi-sr-mQD.text" = "FLYPLAN® et balayages 3D illimités";
+
+/* Class = "UIButton"; normalTitle = "View in AR"; ObjectID = "xYD-0v-N2c"; */
+"xYD-0v-N2c.normalTitle" = "Voir en AR";
+
+/* Class = "UILabel"; text = "First wall"; ObjectID = "xyU-KZ-cjS"; */
+"xyU-KZ-cjS.text" = "Premier mur";
+
+/* Class = "UIButton"; normalTitle = "Transfer my plans to RoomScan Pro"; ObjectID = "y1n-jp-TLq"; */
+"y1n-jp-TLq.normalTitle" = "Transférer mes plans vers RoomScan Pro";
+
+/* Class = "UIBarButtonItem"; title = "Transfer"; ObjectID = "y2C-18-c26"; */
+"y2C-18-c26.title" = "Transfert";
+
+/* Class = "UILabel"; text = "Monochrome"; ObjectID = "YAE-ne-Y6c"; */
+"YAE-ne-Y6c.text" = "Monochrome";
+
+/* Class = "UILabel"; text = "Drawing Your Floor Plan..."; ObjectID = "YDw-sI-3yM"; */
+"YDw-sI-3yM.text" = "Dessin de votre plan de niveau en cours...";
+
+/* Class = "UILabel"; text = "The angle of the phone doesn't matter."; ObjectID = "Yji-be-rov"; */
+"Yji-be-rov.text" = "L’angle du téléphone n’a pas d'importance.";
+
+/* Class = "UIButton"; normalTitle = "Send Diagnostics"; ObjectID = "YxI-bD-wpk"; */
+"YxI-bD-wpk.normalTitle" = "Envoyer les diagnostics";
+
+/* Class = "UITextField"; placeholder = "Room Name"; ObjectID = "yzS-ya-nxd"; */
+"yzS-ya-nxd.placeholder" = "Nom de la pièce";
+
+/* Class = "UIButton"; normalTitle = "Resume Scan"; ObjectID = "Z02-v7-S4N"; */
+"Z02-v7-S4N.normalTitle" = "Reprendre le balayage";
+
+/* Class = "UILabel"; text = "Please check the FAQ below and contact us any time for assistance — we aim to reply within minutes."; ObjectID = "Zay-ME-xTq"; */
+"Zay-ME-xTq.text" = "Veuillez nous contacter pour tout commentaire ou si vous rencontrez des difficultés pour démarrer.";
+
+/* Class = "UITextField"; placeholder = "height"; ObjectID = "zbF-Fl-sGD"; */
+"zbF-Fl-sGD.placeholder" = "hauteur";
+
+/* Class = "UILabel"; text = "My RoomScan Subscription"; ObjectID = "zCx-ga-cAa"; */
+"zCx-ga-cAa.text" = "Mon abonnement RoomScan";
+
+/* Class = "UIButton"; normalTitle = "View Instructions"; ObjectID = "ZjH-yV-I2U"; */
+"ZjH-yV-I2U.normalTitle" = "Voir les instructions";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "zzE-eO-YmJ"; */
+"zzE-eO-YmJ.normalTitle" = "Annuler";
+

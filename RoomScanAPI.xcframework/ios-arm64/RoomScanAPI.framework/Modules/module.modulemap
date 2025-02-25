@@ -1,0 +1,4 @@
+framework module RoomScanAPI {
+    header "RoomScanAPI.h"
+   export *
+}

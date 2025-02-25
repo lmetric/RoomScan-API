@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SFG-Ge-uU7">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Ik9-pd-Ftm">
+            <objects>
+                <navigationController toolbarHidden="NO" id="SFG-Ge-uU7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nub-VH-kAN">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oWc-L5-NkZ">
+                        <rect key="frame" x="0.0" y="769" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="KX7-mt-jDC" kind="relationship" relationship="rootViewController" id="oZM-RF-NQV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qjn-Sk-E3w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-830" y="-295"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZQE-tf-dTC">
+            <objects>
+                <viewController id="KX7-mt-jDC" customClass="ViewController" customModule="rugs_co" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V3K-sG-CQA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="6mo-RF-mRZ">
+                                <rect key="frame" x="10" y="103" width="373" height="666"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the rugs&amp;co Demo App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GoR-HD-Not">
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="74"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This basic app demonstrates some of the functionality of the Locometric® RoomScan API" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIk-6Z-wyH">
+                                        <rect key="frame" x="0.0" y="74" width="373" height="74"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nz3-X3-9sH">
+                                        <rect key="frame" x="0.0" y="148" width="373" height="74"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Open room list"/>
+                                        <connections>
+                                            <action selector="openRoomList:" destination="x5M-hJ-nEc" eventType="touchUpInside" id="0rh-Vw-NHr"/>
+                                            <action selector="openRoomList:" destination="KX7-mt-jDC" eventType="touchUpInside" id="5hk-zd-Mmp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0r-vd-zcU">
+                                        <rect key="frame" x="0.0" y="222" width="373" height="74"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Create a new room &quot;My Room&quot;"/>
+                                        <connections>
+                                            <action selector="createMyRoom:" destination="x5M-hJ-nEc" eventType="touchUpInside" id="cvG-Cg-Oqf"/>
+                                            <action selector="createMyRoom:" destination="KX7-mt-jDC" eventType="touchUpInside" id="mYG-fH-k9T"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5Q-eC-0rm">
+                                        <rect key="frame" x="0.0" y="296" width="373" height="74"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Create a new room &quot;Another Room&quot;"/>
+                                        <connections>
+                                            <action selector="createAnotherRoom:" destination="KX7-mt-jDC" eventType="touchUpInside" id="Agx-36-cnH"/>
+                                            <action selector="createAnotherRoom:" destination="x5M-hJ-nEc" eventType="touchUpInside" id="x2b-Cl-7LG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nj2-KZ-iVu">
+                                        <rect key="frame" x="0.0" y="370" width="373" height="74"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Start a Plot Scan"/>
+                                        <connections>
+                                            <action selector="plotScan:" destination="KX7-mt-jDC" eventType="touchUpInside" id="9cE-MY-uYL"/>
+                                            <action selector="plotScan:" destination="x5M-hJ-nEc" eventType="touchUpInside" id="lzi-9E-FSP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0H-lk-GU6">
+                                        <rect key="frame" x="0.0" y="444" width="373" height="74"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Start an Exterior Scan"/>
+                                        <connections>
+                                            <action selector="exteriorScan:" destination="x5M-hJ-nEc" eventType="touchUpInside" id="5wi-vn-RgL"/>
+                                            <action selector="exteriorScan:" destination="KX7-mt-jDC" eventType="touchUpInside" id="ZxC-PZ-0mS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5E-aS-VeE">
+                                        <rect key="frame" x="0.0" y="518" width="373" height="74"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Export Property as PDF"/>
+                                        <connections>
+                                            <action selector="exportAsPDF:" destination="x5M-hJ-nEc" eventType="touchUpInside" id="GRd-Tb-aFD"/>
+                                            <action selector="exportAsPDF:" destination="KX7-mt-jDC" eventType="touchUpInside" id="zRl-vF-FW7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9S-o5-FFP">
+                                        <rect key="frame" x="0.0" y="592" width="373" height="74"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Export Property as Xactimate®"/>
+                                        <connections>
+                                            <action selector="exportAsESX:" destination="KX7-mt-jDC" eventType="touchUpInside" id="bU2-lv-ZDj"/>
+                                            <action selector="exportAsESX:" destination="x5M-hJ-nEc" eventType="touchUpInside" id="wvi-hM-IV7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="94C-Se-FUs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6mo-RF-mRZ" firstAttribute="leading" secondItem="94C-Se-FUs" secondAttribute="leading" constant="10" id="bsl-PX-ZcX"/>
+                            <constraint firstItem="94C-Se-FUs" firstAttribute="trailing" secondItem="6mo-RF-mRZ" secondAttribute="trailing" constant="10" id="eQW-Wp-0yw"/>
+                            <constraint firstItem="94C-Se-FUs" firstAttribute="bottom" secondItem="6mo-RF-mRZ" secondAttribute="bottom" id="ebI-ov-Lya"/>
+                            <constraint firstItem="6mo-RF-mRZ" firstAttribute="top" secondItem="94C-Se-FUs" secondAttribute="top" id="hQB-e1-A6O"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vw7-Wm-9Sr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M4o-N2-sit" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="x5M-hJ-nEc" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="311" y="-426"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

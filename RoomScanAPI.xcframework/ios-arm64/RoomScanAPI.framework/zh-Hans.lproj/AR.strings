@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "9An-Vx-ZdJ"; */
+"9An-Vx-ZdJ.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Stand near the door to 'Living Room' when tapping Done."; ObjectID = "L6O-gX-Ka1"; */
+"L6O-gX-Ka1.text" = "Stand near the door to 'Living Room' when tapping Done.";
+
+/* Class = "UILabel"; text = "24cm x 43cm"; ObjectID = "MMn-n5-tey"; */
+"MMn-n5-tey.text" = "24cm x 43cm";
+
+/* Class = "UILabel"; text = "Kitchen Counter?"; ObjectID = "NeA-zx-zdb"; */
+"NeA-zx-zdb.text" = "Kitchen Counter?";
+
+/* Class = "UIButton"; configuration.title = "Done"; ObjectID = "SEN-jP-bqu"; */
+"SEN-jP-bqu.normalTitle" = "完成";
+
+/* Class = "UILabel"; text = "⚠️ Check the angle of the orange line matches each wall."; ObjectID = "Uex-hf-NAw"; */
+"Uex-hf-NAw.text" = "⚠️ Check the angle of the orange line matches each wall.";
+
+/* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "Vff-ex-cw7"; */
+"Vff-ex-cw7.configuration.title" = "取消";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Vff-ex-cw7"; */
+"Vff-ex-cw7.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aNF-Sw-9iY"; */
+"aNF-Sw-9iY.text" = "Label";
+
+/* Class = "UILabel"; text = "Activating lasers..."; ObjectID = "o8P-eM-FiF"; */
+"o8P-eM-FiF.text" = "Activating lasers...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ozV-Ai-vPn"; */
+"ozV-Ai-vPn.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Flip"; ObjectID = "qSd-8w-yIY"; */
+"qSd-8w-yIY.normalTitle" = "Flip";
+
+/* Class = "UITextView"; text = "abc\ndef"; ObjectID = "tOP-Xz-397"; */
+"tOP-Xz-397.text" = "abc\ndef";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uno-4u-hZg"; */
+"uno-4u-hZg.text" = "Label";
