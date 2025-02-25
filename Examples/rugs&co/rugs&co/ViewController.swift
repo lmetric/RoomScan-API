@@ -50,6 +50,9 @@ class ViewController: UIViewController {
     @IBAction func createAnotherRoom(_ sender: Any) {
         let newRoomViewController = shared.newRoomViewController(withRoomName: "Another Room", floor: "Ground Floor", roomType: .room)
         self.navigationController!.pushViewController(newRoomViewController, animated: true)
+        DispatchQueue.main.async {
+            self.shared.startScan(newRoomViewController, preferredMethod: .brickMode)
+        }
     }
     
     @IBAction func plotScan(_ sender: Any) {

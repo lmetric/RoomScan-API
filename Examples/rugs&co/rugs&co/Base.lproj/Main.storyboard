@@ -72,7 +72,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5Q-eC-0rm">
                                         <rect key="frame" x="0.0" y="296" width="373" height="74"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Create a new room &quot;Another Room&quot;"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Create a new room &quot;Another Room&quot;" subtitle="(skips New Room screen)" titleAlignment="center"/>
                                         <connections>
                                             <action selector="createAnotherRoom:" destination="KX7-mt-jDC" eventType="touchUpInside" id="Agx-36-cnH"/>
                                             <action selector="createAnotherRoom:" destination="x5M-hJ-nEc" eventType="touchUpInside" id="x2b-Cl-7LG"/>
