@@ -84,6 +84,21 @@ NS_SWIFT_NAME(Property)
 /// of the host app, if required.
 @interface RSProperty : NSObject
 
+/// The first line of the address as displayed in the 'Street address' box on the Property Details screen
+@property (retain, nonatomic) NSString * _Nonnull street;
+
+/// The second line of the address as displayed in the 'Town' box on the Property Details screen
+@property (retain, nonatomic) NSString * _Nonnull town;
+
+/// The postal code of the address as displayed in the 'Postal code' box on the Property Details screen
+@property (retain, nonatomic) NSString * _Nonnull postalCode;
+
+/// The country of the address as displayed in the 'Country' box on the Property Details screen
+@property (retain, nonatomic) NSString * _Nonnull country;
+
+/// The notes relating to the property as displayed in the 'Notes' box on the Property Details screen
+@property (retain, nonatomic) NSString * _Nonnull notes;
+
 /// Before exporting in most formats, it's necessary to check none of the rooms overlap each other. This
 /// function returns true if it finds any and returns the first occurrence it finds in the floor, room1 and
 /// room2 parameters. The user can then be prompted to resolve the issue.
@@ -143,7 +158,7 @@ NS_SWIFT_NAME(Helper)
 /// After creating a `UIViewController` using ``newRoomViewControllerWithRoomName:floor:roomType:``, it's recommended to present
 /// it to the user. Optionally, you can instead call this method to proceed directly to
 /// the scan. The `UIViewController` must have been presented first but if you call ``startScan:preferredMethod:`` immediately
-/// after presentation then user won't see the New Room screen.
+/// after presentation then the user won't see the New Room screen.
 /// - Parameter newRoomViewController: A `UIViewController` returned from ``newRoomViewControllerWithRoomName:floor:roomType:``
 /// - Parameter method: Since the New Room UI is being skipped, you are responsible for determining which method of scanning the room the user wants to use. See ``RSScanMethodType``.
 - (bool)startScan:(nonnull UIViewController *)newRoomViewController preferredMethod:(RSScanMethodType)method;
