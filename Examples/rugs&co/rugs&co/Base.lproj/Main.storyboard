@@ -40,19 +40,19 @@
                                 <rect key="frame" x="10" y="103" width="373" height="666"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the rugs&amp;co Demo App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GoR-HD-Not">
-                                        <rect key="frame" x="0.0" y="0.0" width="373" height="74"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="66.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This basic app demonstrates some of the functionality of the Locometric® RoomScan API" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIk-6Z-wyH">
-                                        <rect key="frame" x="0.0" y="74" width="373" height="74"/>
+                                        <rect key="frame" x="0.0" y="66.666666666666657" width="373" height="66.666666666666657"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nz3-X3-9sH">
-                                        <rect key="frame" x="0.0" y="148" width="373" height="74"/>
+                                        <rect key="frame" x="0.0" y="133.33333333333334" width="373" height="66.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Open room list"/>
                                         <connections>
@@ -61,7 +61,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0r-vd-zcU">
-                                        <rect key="frame" x="0.0" y="222" width="373" height="74"/>
+                                        <rect key="frame" x="0.0" y="199.66666666666669" width="373" height="66.666666666666686"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Create a new room &quot;My Room&quot;"/>
                                         <connections>
@@ -70,7 +70,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5Q-eC-0rm">
-                                        <rect key="frame" x="0.0" y="296" width="373" height="74"/>
+                                        <rect key="frame" x="0.0" y="266.33333333333331" width="373" height="66.666666666666686"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Create a new room &quot;Another Room&quot;" subtitle="(skips New Room screen)" titleAlignment="center"/>
                                         <connections>
@@ -79,7 +79,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nj2-KZ-iVu">
-                                        <rect key="frame" x="0.0" y="370" width="373" height="74"/>
+                                        <rect key="frame" x="0.0" y="333" width="373" height="66.666666666666686"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Start a Plot Scan"/>
                                         <connections>
@@ -88,7 +88,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0H-lk-GU6">
-                                        <rect key="frame" x="0.0" y="444" width="373" height="74"/>
+                                        <rect key="frame" x="0.0" y="399.66666666666669" width="373" height="66.666666666666686"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Start an Exterior Scan"/>
                                         <connections>
@@ -97,7 +97,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5E-aS-VeE">
-                                        <rect key="frame" x="0.0" y="518" width="373" height="74"/>
+                                        <rect key="frame" x="0.0" y="466.33333333333337" width="373" height="66.333333333333371"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Export Property as PDF"/>
                                         <connections>
@@ -106,12 +106,20 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9S-o5-FFP">
-                                        <rect key="frame" x="0.0" y="592" width="373" height="74"/>
+                                        <rect key="frame" x="0.0" y="532.66666666666663" width="373" height="66.666666666666629"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Export Property as Xactimate®"/>
                                         <connections>
                                             <action selector="exportAsESX:" destination="KX7-mt-jDC" eventType="touchUpInside" id="bU2-lv-ZDj"/>
                                             <action selector="exportAsESX:" destination="x5M-hJ-nEc" eventType="touchUpInside" id="wvi-hM-IV7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bb2-F9-2MC">
+                                        <rect key="frame" x="0.0" y="599.33333333333337" width="373" height="66.666666666666629"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Show Room Information"/>
+                                        <connections>
+                                            <action selector="roomInformation:" destination="KX7-mt-jDC" eventType="touchUpInside" id="01u-RZ-mKz"/>
                                         </connections>
                                     </button>
                                 </subviews>

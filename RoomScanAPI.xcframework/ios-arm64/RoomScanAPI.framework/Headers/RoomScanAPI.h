@@ -15,25 +15,53 @@ FOUNDATION_EXPORT double RoomScanAPIVersionNumber;
 //! Project version string for RoomScanAPI.
 FOUNDATION_EXPORT const unsigned char RoomScanAPIVersionString[];
 
+/// The collection of rooms in ``RSProperty`` can also contain plots and exterior scans.
 NS_SWIFT_NAME(RoomType)
 typedef NS_ENUM(NSUInteger, RSRoomType) {
+    /// Room
     RSRoomType_Room = 1,
+    /// A plot, scanned with the PlotScan feature
     RSRoomType_Plot = 2,
+    /// A scan of the walls taken from the exterior using the ExteriorScan feature
     RSRoomType_Exterior = 3
 };
 
+/// RoomScan supports several different ways of capturing a room depending on user requirements and device capabilties.
 NS_SWIFT_NAME(ScanMethodType)
 typedef NS_ENUM(NSUInteger, RSScanMethodType) {
     /// Scanning the room by physically holding the device against each wall in turn (this works on all Apple devices)
     RSScanMethodType_WallTouch,
-    /// Scanning the room using RoomScan's ARKit-based UI
+    /// Scanning the room using RoomScan's ARKit-based UI (this does require LiDAR).
     RSScanMethodType_BrickMode,
-    /// Apple RoomPlan
+    /// Apple RoomPlan (requires LiDAR).
     RSScanMethodType_RoomPlan,
-    /// Draw plan manually
+    /// Draw plan manually (setting wall lengths using Bluetooth laser is supported).
     RSScanMethodType_DrawManually
 };
 
+/// The room size (displayed as a subtitle under the room name) can be shown or hidden using this property.
+NS_SWIFT_NAME(RoomSizeDisplayType)
+typedef NS_ENUM(NSUInteger, RSRoomSizeDisplayType) {
+    /// The size is shown according to the user's selected preference (could be main dimensions, area or other attributes depending on what they have configured).
+    RSRoomSizeDisplayType_Show,
+    /// The size is not shown for this room, but the area is still included in the total.
+    RSRoomSizeDisplayType_Hide,
+    /// The size is not shown for this room and its area does not contribute to the area of the floor.
+    RSRoomSizeDisplayType_Exclude
+};
+
+/// Options for wall style are provided to indicate features like balconies and outdoor areas.
+NS_SWIFT_NAME(WallStyle)
+typedef NS_ENUM(NSUInteger, RSWallStyle) {
+    /// Standard wall style for rooms.
+    RSWallStyle_Normal,
+    /// Thin wall style.
+    RSWallStyle_Thin,
+    /// Thin and dashed line wall style.
+    RSWallStyle_Broken
+};
+
+/// Export is available in a wide range of formats.
 NS_SWIFT_NAME(ExportType)
 typedef NS_ENUM(NSUInteger, RSExportType) {
     /// DXF with no specific units
@@ -78,6 +106,45 @@ typedef NS_ENUM(NSUInteger, RSExportType) {
     RSExportType_ifc
 };
 
+NS_SWIFT_NAME(Room)
+/// The Room object represents a room, plot or exterior outline within the property. See ``RSRoomType``.
+@interface RSRoom : NSObject
+
+/// The name of the room as displayed on the floor plan
+@property (retain, nonatomic) NSString * _Nonnull name;
+
+/// The floor name that the room belongs to. Membership of a floor is defined simply by a rooms having a matching floor name, but see also ``group``.
+@property (retain, nonatomic) NSString * _Nonnull floor;
+
+/// This is a UUID stored as a string, or null if the room is not a member of a group. Rooms appear on the same floor plan diagram as other rooms in the same group. There can be more than one group on the same floor, for example, in the case of a detached annexe. Group membership is defined by having the same UUID.
+@property (retain, nonatomic) NSString * _Nullable group;
+
+/// The time and date at which the room was created. This is immutable so can be used as a unique identifier.
+@property (retain, nonatomic, readonly) NSDate * _Nonnull creationDate;
+
+/// The background colour for the room as displayed on the floor plan. This is either 4 or 2 floating point numbers in the range 0-1. If 4 numbers, it's RGBA. If 2 numbers, it's grey and alpha.
+@property (retain, nonatomic) NSString * _Nonnull colour;
+
+/// The height of the room in meters. Can be set to null, which disables wall area calculations etc.
+@property (retain, nonatomic) NSNumber * _Nullable height;
+
+/// The method that was used to scan the room, see ``RSScanMethodType``.
+@property (assign, nonatomic, readonly) RSScanMethodType scanMethod;
+
+/// The treatment of the room size, see ``RSRoomSizeDisplayType``.
+@property (assign, nonatomic) RSRoomSizeDisplayType areaDisplay;
+
+/// The drawing style for the walls, see ``RSWallStyle``.
+@property (assign, nonatomic) RSWallStyle wallStyle;
+
+/// An optional custom subtitle for the room, which appears under the room name on the plan. If present, this overrides whatever subtitle the user has configured for rooms.
+@property (retain, nonatomic) NSString * _Nullable customSubtitle;
+
+/// The answers to any custom surveys the user has completed for the room. See [RoomScan Room Surveys](https://www.locometric.com/roomscan-room-surveys).
+@property (retain, nonatomic) NSDictionary *_Nullable answers;
+
+@end
+
 NS_SWIFT_NAME(Property)
 /// The Property object represents a collection of floors, rooms, plot scans etc taken at one site.
 /// This is the highest-level object in the API. Managing a collection of properties is the responsibility
@@ -98,6 +165,9 @@ NS_SWIFT_NAME(Property)
 
 /// The notes relating to the property as displayed in the 'Notes' box on the Property Details screen
 @property (retain, nonatomic) NSString * _Nonnull notes;
+
+/// The rooms within the property, which also includes output from PlotScan and ExteriorScan. See ``RSRoom``.
+@property (readonly) NSArray<RSRoom *> * _Nonnull rooms;
 
 /// Before exporting in most formats, it's necessary to check none of the rooms overlap each other. This
 /// function returns true if it finds any and returns the first occurrence it finds in the floor, room1 and

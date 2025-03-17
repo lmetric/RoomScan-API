@@ -102,5 +102,35 @@ class ViewController: UIViewController {
             }
         })
     }
+    
+    @IBAction func roomInformation(_ sender: Any) {
+        let property = shared.property()!
+        
+        var text = ""
+        for room in property.rooms.enumerated() {
+            let r = room.element
+            
+            let scanMethod: String
+            switch r.scanMethod {
+            case .brickMode:
+                scanMethod = "RoomScan Brick Mode"
+            case .drawManually:
+                scanMethod = "Draw Manually"
+            case .roomPlan:
+                scanMethod = "Apple RoomPlan"
+            case .wallTouch:
+                scanMethod = "Wall Touch"
+            @unknown default:
+                scanMethod = "Unknown"
+            }
+            
+            text += "Room \(room.offset) name '\(r.name)' height \(r.height) scanning mode \(scanMethod) floor \(r.floor) creation time \(r.creationDate) has survey answers? \(((r.answers?.count ?? 0) > 0) ? "Yes" : "No")\n\n"
+        }
+        
+        let alert = UIAlertController(title: "Room Information", message: text, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default))
+        self.present(alert, animated: true)
+
+    }
 }
 
