@@ -106,6 +106,21 @@ typedef NS_ENUM(NSUInteger, RSExportType) {
     RSExportType_ifc
 };
 
+/// An array of these objects is returned by ``RSProperty``.`exportPropertyImagesInGroups`
+NS_SWIFT_NAME(FloorPlanImage)
+@interface RSFloorPlanImage : NSObject
+
+/// `UIImage` object ready to display in UI
+@property (retain, nonatomic) UIImage * _Nonnull image;
+
+/// The name of the floor this floor plan image represents
+@property (retain, nonatomic) NSString * _Nonnull floor;
+
+/// The group ID of the floor plan image. See the `group` property of ``RSRoom``.
+@property (retain, nonatomic) NSString * _Nullable group;
+
+@end
+
 NS_SWIFT_NAME(Room)
 /// The Room object represents a room, plot or exterior outline within the property. See ``RSRoomType``.
 @interface RSRoom : NSObject
@@ -183,6 +198,15 @@ NS_SWIFT_NAME(Property)
 /// - Parameter completion: A block which is called when the export is complete. If `data` is null then the export failed and the `message` parameter will contain a reason. The `message` parameter may also be non-null on success.
 - (void)exportPropertyAs:(RSExportType)format completion:(void (^_Nonnull)(NSData * _Nullable data, NSString * _Nullable message))completion;
 
+/// The property is automatically saved when the user makes changes using the UI, but if you make changes
+/// via the API (such as changing the address), it must be saved explictly using this method.
+/// - Parameter errorPtr: Standard objective C error return. If you're using Swift you can just use `try? property.save()` omitting this parameter.
+- (BOOL)save:(NSError *_Nullable *_Nullable)errorPtr;
+
+/// Gets the floor plan images as `UIImage` objects ready for display within your own app's UI. You can optionally provide one or more group IDs to export specified floors (see the `group` property of ``RSRoom``).
+/// - Parameter groups: Array of `RSRoom.group` IDs, or pass nil to get an image for every floor in the property
+- (nonnull NSArray<RSFloorPlanImage *> *)exportPropertyImagesInGroups:(nullable NSArray<NSString *> *)groups;
+
 @end
 
 NS_SWIFT_NAME(Helper)
@@ -233,4 +257,11 @@ NS_SWIFT_NAME(Helper)
 /// - Parameter method: Since the New Room UI is being skipped, you are responsible for determining which method of scanning the room the user wants to use. See ``RSScanMethodType``.
 - (bool)startScan:(nonnull UIViewController *)newRoomViewController preferredMethod:(RSScanMethodType)method;
 
+/// Optionally sets the list of room names and colours that the user can choose from on the "New Room" screen. The names provided here replace the default options.
+/// - Parameters:
+///   - names: Array of room names
+///   - colours: Array of room colours, which must have the same number of entries as the names
+- (void)setStandardRoomsNames:(nonnull NSArray<NSString *> *)names colours:(nonnull NSArray<UIColor *> *)colours;
+    
 @end
+
