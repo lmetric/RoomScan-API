@@ -2,8 +2,8 @@
 /* Class = "UIButton"; normalTitle = "Done"; ObjectID = "9An-Vx-ZdJ"; */
 "9An-Vx-ZdJ.normalTitle" = "OK";
 
-/* Class = "UILabel"; text = "⚠️ Check the angle of the orange line matches each wall."; ObjectID = "Uex-hf-NAw"; */
-"Uex-hf-NAw.text" = "⚠️ Il faut vérifier que l'angle de la ligne orange s'aligne avec chaque mur.";
+/* Class = "UILabel"; text = "⚠️ Check the angle of the line matches each wall."; ObjectID = "Uex-hf-NAw"; */
+"Uex-hf-NAw.text" = "⚠️ Il faut vérifier que l'angle de la ligne s'aligne avec chaque mur.";
 
 /* Class = "UILabel"; text = "Activating lasers..."; ObjectID = "o8P-eM-FiF"; */
 "o8P-eM-FiF.text" = "Lasers activants...";

@@ -15,7 +15,7 @@
 "SEN-jP-bqu.normalTitle" = "完成";
 
 /* Class = "UILabel"; text = "⚠️ Check the angle of the orange line matches each wall."; ObjectID = "Uex-hf-NAw"; */
-"Uex-hf-NAw.text" = "⚠️ Check the angle of the orange line matches each wall.";
+"Uex-hf-NAw.text" = "⚠️ Check the angle of the line matches each wall.";
 
 /* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "Vff-ex-cw7"; */
 "Vff-ex-cw7.configuration.title" = "取消";
