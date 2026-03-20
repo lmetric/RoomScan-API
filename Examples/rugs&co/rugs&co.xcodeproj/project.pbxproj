@@ -27,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		5045D0F22CD507EF005023A2 /* rugs&co.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rugs&co.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50997FC72CEB7BF3003F13EF /* RoomScanAPI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RoomScanAPI.xcframework; path = "../../GitHub/Laser-Measure/xcframeworks/RoomScanAPI.xcframework"; sourceTree = "<group>"; };
+		50997FC72CEB7BF3003F13EF /* RoomScanAPI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RoomScanAPI.xcframework; path = ../../RoomScanAPI.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
